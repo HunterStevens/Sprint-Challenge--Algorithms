@@ -15,7 +15,6 @@ class Test(unittest.TestCase):
         robot = SortingRobot(self.small_list)
         robot.sort()
         self.assertEqual(robot._list, sorted(self.small_list))
-
     def test_sorting_medium_list(self):
         robot = SortingRobot(self.medium_list)
         robot.sort()
@@ -35,7 +34,8 @@ class Test(unittest.TestCase):
         robot = SortingRobot(self.random_list)
         robot.sort()
         self.assertEqual(robot._list, sorted(self.random_list))
-
+    '''
+    '''
     # def test_stretch_times(self):
     #     robot = SortingRobot(self.small_list)
     #     robot.sort()
