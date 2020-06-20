@@ -13,7 +13,7 @@ def count_th(word):
     else:
         arr = word
     #check if the arr is reduced to its end
-    if len(arr) < 3:
+    if len(arr) < 2:
         return 0
     else:
         #check if a t is in the remainding arr along with and h next to it
