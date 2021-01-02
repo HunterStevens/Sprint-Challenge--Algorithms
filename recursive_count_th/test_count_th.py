@@ -7,6 +7,8 @@ class Test(unittest.TestCase):
     def setUp(self):
         self.word = ""
 
+    '''
+    '''
     def test_count_th_empty(self):
         self.word = ""
         count = count_th(self.word)
@@ -31,7 +33,6 @@ class Test(unittest.TestCase):
         self.word = "THtHThth"
         count = count_th(self.word)
         self.assertEqual(1, count)
-
     
 if __name__ == '__main__':
     unittest.main()
